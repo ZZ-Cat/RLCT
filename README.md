@@ -21,7 +21,7 @@ The installation process of RLC Titanium is significantly different, and will be
 For now...
 
 ```shell
-git clone https://github.com/ZZ-Cat/RLCT
+git clone https://github.com/ZZ-Cat/rlctitanium
 ```
 
 into your Garry's Mod directory...
@@ -30,7 +30,7 @@ into your Garry's Mod directory...
 steamapps/GarrysMod/garrysmod/data/expression2/e2shared
 ```
 
-When all is said and done, you should see the `RLCT` folder in your `e2shared` folder.
+When all is said and done, you should see the `rlctitanium` folder in your `e2shared` folder.
 
 ## Development map
 
