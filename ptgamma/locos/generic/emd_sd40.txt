@@ -24,7 +24,7 @@ BaseSpeed = 65 #The top speed that's considered "normal" for this locomotive.
 TopSpeed = 65 #Top Speed, in Miles per Hour, that the locomotive is capable of reaching due to the gearing. If you don't know, put 65.
 
 #Pick a Prime Mover Config File! You can find them in "ptgamma/engines/" !
-#include "ptgamma/engines/EMD_V16_645E3_FuelSaver"
+#include "rlctitanium/ptgamma/engines/EMD_V16_645E3_FuelSaver"
 #What Engine should you pick for your locomotive? Google it.
 
 UnitType = 0

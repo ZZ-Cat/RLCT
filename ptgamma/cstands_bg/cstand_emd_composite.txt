@@ -30,7 +30,7 @@ if(first()){
     #Config
     
     #Pick a Control Scheme File! You can find them in "ptgamma/controls/" !
-    #include "ptgamma/controls/standard"
+    #include "rlctitanium/ptgamma/controls/standard"
     
     AirBrakeMode = 2
     #0 - Simple Self-Lapping (Easy)
