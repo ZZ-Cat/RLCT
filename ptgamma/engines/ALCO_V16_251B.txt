@@ -1,6 +1,6 @@
 @name ptgamma/engines/ALCO_V16_251B
 #ENGINE CONFIG
-ENG_Version = "2.0.67"
+ENG_Version = "0.1.0"
 #ALCO's first production V-16 251. Used in the RS-27, RSD-15, RSD-17, and the C424.
 EngineType = "ALCO 16-251B" #What is the name of the Prime Mover?
 

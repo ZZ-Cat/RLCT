@@ -1,6 +1,6 @@
 @name ptgamma/engines/EMD_V16_567D3A
 #ENGINE CONFIG
-ENG_Version = "2.0.67"
+ENG_Version = "0.1.0"
 #For use in EMD 35 Series Locomotives (GP35, SD35, DD35).
 EngineType = "EMD 567D3A (V16)" #What is the name of the Prime Mover?
 

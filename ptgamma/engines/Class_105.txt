@@ -1,6 +1,6 @@
 @name ptgamma/engines/Class 105
 #ENGINE CONFIG
-ENG_Version = "2.0.67"
+ENG_Version = "0.1.0"
 #For use in the Class 105 DMU. Made to demonstrate how you can make sound sets with nonstandard notch counts and no transitions.
 EngineType = "AEC 150hp" #What is the name of the Prime Mover?
 

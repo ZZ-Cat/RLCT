@@ -1,6 +1,6 @@
 @name ptgamma/engines/GE_7FDL16K16R
 #ENGINE CONFIG
-ENG_Version = "2.0.67"
+ENG_Version = "0.1.0"
 #K series FDL16 Engine. Accurate for very late classic series Dash 8's. Modern series Dash 8's also used this engine but it operates differently.
 EngineType = "GE 7FDL16K16R" #What is the name of the Prime Mover?
 

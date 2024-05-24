@@ -1,6 +1,6 @@
 @name ptgamma/engines/BLW_606
 #ENGINE CONFIG
-ENG_Version = "2.0.67"
+ENG_Version = "0.1.0"
 #Used in the S8. An acceptable substitute for a 606NA (DS-4-4-660, DS-4-4-750, DRS-4-4-660, DRS-4-4-750).
 EngineType = "Baldwin 606 (L6)" #What is the name of the Prime Mover?
 

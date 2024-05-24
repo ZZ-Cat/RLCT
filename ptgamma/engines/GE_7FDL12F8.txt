@@ -1,6 +1,6 @@
 @name ptgamma/engines/GE_7FDL12F8
 #ENGINE CONFIG
-ENG_Version = "2.0.67"
+ENG_Version = "0.1.0"
 #For use in early GE Universal locomotives with a 12 cylinder FDL engine (U23B, U20C, U23C, U26C). 
 EngineType = "GE 7FDL12F8" #What is the name of the Prime Mover?
 

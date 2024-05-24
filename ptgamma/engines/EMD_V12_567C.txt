@@ -1,6 +1,6 @@
 @name ptgamma/engines/EMD_V12_567C
 #ENGINE CONFIG
-ENG_Version = "2.0.68"
+ENG_Version = "0.1.0"
 #For use in the EMD SW1200 or EMD E9.
 EngineType = "EMD 567C (V12)" #What is the name of the Prime Mover?
 

@@ -1,6 +1,6 @@
 @name ptgamma/engines/ALCO_I6_539T_V2
 #ENGINE CONFIG
-ENG_Version = "2.0.68"
+ENG_Version = "0.1.0"
 #Turbocharged inline 6 engine. Used in early ALCo diesels (HH1000, S2, S4, S7, S12, RS1, RSC13, and DL103-DL110)
 EngineType = "ALCo I6-539T" #What is the name of the Prime Mover?
 

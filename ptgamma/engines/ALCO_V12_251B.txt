@@ -1,6 +1,6 @@
 @name ptgamma/engines/ALCO_V12_251B
 #ENGINE CONFIG
-ENG_Version = "2.0.67"
+ENG_Version = "0.1.0"
 #For use in early Alco locomotives equipped with the 12-251 engine (RS-11, MLW RS-18, RSD-12).
 EngineType = "Alco 251B (V12)" #What is the name of the Prime Mover?
 

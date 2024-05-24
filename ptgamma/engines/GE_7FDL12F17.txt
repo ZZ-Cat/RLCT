@@ -1,6 +1,6 @@
 @name ptgamma/engines/GE_7FDL12F17
 #ENGINE CONFIG
-ENG_Version = "2.0.67"
+ENG_Version = "0.1.0"
 #Mid production F series FDL12 engine with an unsilenced exhaust. Accurate for early 12 cylinder Dash 7s.
 EngineType = "GE 7FDL12F17" #What is the name of the Prime Mover?
 

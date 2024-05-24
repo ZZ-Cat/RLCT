@@ -3,7 +3,7 @@
 @outputs 
 @persist 
 @trigger 
-CFG_Version = "2.0.65"
+CFG_Version = "0.1.0"
 #This file defines what locomotive your RLC PT2 chip will simulate. It is recommended that you save one file for each locomotive you have!
 #NOTE: YOU HAVE TO MANUALLY MAKE A NEW FOLDER BEFORE YOU CAN START SAVING E2S INTO IT!!!
 

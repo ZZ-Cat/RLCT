@@ -1,6 +1,6 @@
 @name ptgamma/engines/EMD_V16_567BC
 #ENGINE CONFIG
-ENG_Version = "2.0.67"
+ENG_Version = "0.1.0"
 #For use in the EMD GP/SD7 and pre F9 F-Units. 567B engine block upgraded to use 567C cylinder liners and water manifold piping.
 EngineType = "EMD 567BC (V16)" #What is the name of the Prime Mover?
 

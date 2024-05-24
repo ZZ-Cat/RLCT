@@ -1,6 +1,6 @@
 @name ptgamma/engines/GE_7FDL16Y9
 #ENGINE CONFIG
-ENG_Version = "2.0.67"
+ENG_Version = "0.1.0"
 #Late Y series FDL Engine. Accurate for mid production Dash 9's.
 EngineType = "GE 7FDL16Y9" #What is the name of the Prime Mover?
 

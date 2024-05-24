@@ -1,6 +1,6 @@
 @name ptgamma/engines/EMD_V12_710G3B-EC
 #ENGINE CONFIG
-ENG_Version = "2.0.67"
+ENG_Version = "0.1.0"
 #For use in the EMD JT42CWR.
 EngineType = "EMD 710G3B-EC (V12)" #What is the name of the Prime Mover?
 

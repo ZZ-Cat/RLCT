@@ -1,6 +1,6 @@
 @name ptgamma/engines/GE_7FDL16J6_Dash_7
 #ENGINE CONFIG
-ENG_Version = "2.0.67"
+ENG_Version = "0.1.0"
 #J series FDL 16 engine without Dash 8 features. Accurate for very late C36-7s.
 EngineType = "GE 7FDL16J6" #What is the name of the Prime Mover?
 

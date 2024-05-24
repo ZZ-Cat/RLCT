@@ -1,6 +1,6 @@
 @name ptgamma/engines/EMD_V12_567A_hotstart
 #ENGINE CONFIG
-ENG_Version = "2.0.68"
+ENG_Version = "0.1.0"
 #For use in the EMD NW-2 (post-1945), NW-5 and SW7.
 EngineType = "EMD 567A (V12)" #What is the name of the Prime Mover?
 

@@ -1,6 +1,6 @@
 @name ptgamma/engines/GE_7FDL16H18
 #ENGINE CONFIG
-ENG_Version = "2.0.67"
+ENG_Version = "0.1.0"
 #H series FDL16 with an unsilenced exhaust. Good for late universals. U28, U30, U33, etc.
 EngineType = "GE 7FDL16H18" #What is the name of the Prime Mover?
 

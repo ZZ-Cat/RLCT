@@ -1,6 +1,6 @@
 @name ptgamma/engines/fm_38d-6
 #ENGINE CONFIG
-ENG_Version = "2.0.67"
+ENG_Version = "0.1.0"
 
 EngineType = "FM 38D-6" #What is the name of the Prime Mover?
 

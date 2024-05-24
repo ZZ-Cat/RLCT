@@ -1,6 +1,6 @@
 @name ptgamma/engines/EMD_V20_645E3_Low
 #ENGINE CONFIG
-ENG_Version = "2.0.67"
+ENG_Version = "0.1.0"
 #For use in EMD 45-series Locomotives (SD45, SD45-2). The low idle keeps the engine cool in hot climates.
 EngineType = "EMD 645E3 (V20)" #What is the name of the Prime Mover?
 

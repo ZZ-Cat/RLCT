@@ -1,6 +1,6 @@
 @name ptgamma/engines/GE_7FDL16Y
 #ENGINE CONFIG
-ENG_Version = "2.0.67"
+ENG_Version = "0.1.0"
 #EFI equipped FDL engine. For use in early Dash 9 locomotives (C40-9, C44-9, CV40-9).
 EngineType = "GE 7FDL16Y" #What is the name of the Prime Mover?
 

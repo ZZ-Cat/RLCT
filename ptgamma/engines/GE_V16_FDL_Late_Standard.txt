@@ -1,6 +1,6 @@
 @name ptgamma/engines/GE_V16_FDL_Late_Standard
 #ENGINE CONFIG
-ENG_Version = "2.0.67"
+ENG_Version = "0.1.0"
 #For use in GE Dash 8/9 Locomotives (C44-9W, P42DC). The fuel-saver saves a little money in the longrun.
 EngineType = "GE 7FDL16" #What is the name of the Prime Mover?
 

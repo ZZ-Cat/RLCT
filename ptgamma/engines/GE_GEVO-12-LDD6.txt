@@ -1,6 +1,6 @@
 @name ptgamma/engines/GE_GEVO-12-LDD6
 #ENGINE CONFIG
-ENG_Version = "2.0.67"
+ENG_Version = "0.1.0"
 #the greatest locomotive engine ever created is now tier 4 certified
 EngineType = "GE GEVO-12-LDD6" #What is the name of the Prime Mover?
 

@@ -1,6 +1,6 @@
 @name ptgamma/engines/GE_7FDL16J6_High_Idle_Dash_8_Shaft_Compressor
 #ENGINE CONFIG
-ENG_Version = "2.0.67"
+ENG_Version = "0.1.0"
 #J series FDL 16 engine. High idle version. Accurate for classic line Dash 8s (C39-8,B39-8). Equipped with a shaft-driven compressor.
 EngineType = "GE 7FDL16J6" #What is the name of the Prime Mover?
 

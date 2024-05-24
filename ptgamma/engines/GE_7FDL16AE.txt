@@ -1,6 +1,6 @@
 @name ptgamma/engines/GE_7FDL16AE
 #ENGINE CONFIG
-ENG_Version = "2.0.67"
+ENG_Version = "0.1.0"
 #AE series FDL engine. Please don't confuse this with the A series in the U25. Accurate for late Dash 9s and AC4400CWs.
 EngineType = "GE 7FDL16AE" #What is the name of the Prime Mover?
 

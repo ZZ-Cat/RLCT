@@ -1,6 +1,6 @@
 @name ptgamma/engines/CB_FWL-6T
 #ENGINE CONFIG
-ENG_Version = "2.0.67"
+ENG_Version = "0.1.0"
 #Used in the GE 70 Ton switching locomotive and various early export Universals. Forerunner to the GE FDL.
 EngineType = "Cooper-Bessemer FWL-6T" #What is the name of the Prime Mover?
 

@@ -1,6 +1,6 @@
 @name ptgamma/engines/EMD_V16_567C
 #ENGINE CONFIG
-ENG_Version = "2.0.67"
+ENG_Version = "0.1.0"
 #For use in EMD Road Locomotives (FT, F9, GP7, GP18, SD9).
 EngineType = "EMD 567C (V16)" #What is the name of the Prime Mover?
 

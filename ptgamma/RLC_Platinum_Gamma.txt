@@ -56,7 +56,7 @@ if(first()|dupefinished()){
 	   #Add 'All is Well' Bleep - done
     #Fix PrintProper - done
     
-    Version = "Gamma 2.0.68"
+    Version = "0.1.0"
     
     #See the attached Operator's Manual (ptgamma/RLC PT2 Operator Manual.txt) for setup and operation instructions.
     
@@ -163,7 +163,7 @@ if(first()|dupefinished()){
     timer("vc_timeout",5000)
     
     #Loco
-    local LastCompatibleConfig = "2.0.65"
+    local LastCompatibleConfig = "0.1.0"
     local RLCVA = LastCompatibleConfig:explode(".")
     local RLCV_Major = RLCVA[2,string]
     local RLCV_Minor = RLCVA[3,string]
@@ -175,7 +175,7 @@ if(first()|dupefinished()){
     local CFG_Conflict = (RLCV_Major:toNumber() > CFGV_Major:toNumber()) | (CFGV_Minor:toNumber() < RLCV_Minor:toNumber())
     
     #Engine
-    LastCompatibleConfig = "2.0.60"
+    LastCompatibleConfig = "0.1.0"
     RLCVA = LastCompatibleConfig:explode(".")
     RLCV_Major = RLCVA[2,string]
     RLCV_Minor = RLCVA[3,string]
@@ -187,7 +187,7 @@ if(first()|dupefinished()){
     local ENG_Conflict = (RLCV_Major:toNumber() > ENGV_Major:toNumber()) | (ENGV_Minor:toNumber() < RLCV_Minor:toNumber())
     
     #Control Stand
-    LastCompatibleConfig = "2.0.65"
+    LastCompatibleConfig = "0.1.0"
     RLCVA = LastCompatibleConfig:explode(".")
     RLCV_Major = RLCVA[2,string]
     RLCV_Minor = RLCVA[3,string]
@@ -200,7 +200,7 @@ if(first()|dupefinished()){
     local CS_Conflict = ->CtlTable ? (RLCV_Major:toNumber() > CSV_Major:toNumber()) | (CSV_Minor:toNumber() < RLCV_Minor:toNumber()) : 0
     
     #Controls
-    LastCompatibleConfig = "2.0.56"
+    LastCompatibleConfig = "0.1.0"
     RLCVA = LastCompatibleConfig:explode(".")
     RLCV_Major = RLCVA[2,string]
     RLCV_Minor = RLCVA[3,string]

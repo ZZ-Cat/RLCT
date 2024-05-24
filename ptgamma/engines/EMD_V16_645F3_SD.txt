@@ -1,6 +1,6 @@
 @name ptgamma/engines/EMD_V16_645F3_SD
 #ENGINE CONFIG
-ENG_Version = "2.0.67"
+ENG_Version = "0.1.0"
 
 #Used in SD50s built before and during 1981.
 

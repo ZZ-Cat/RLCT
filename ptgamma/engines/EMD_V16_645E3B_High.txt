@@ -1,6 +1,6 @@
 @name ptgamma/engines/EMD_V16_645E3B_High
 #ENGINE CONFIG
-ENG_Version = "2.0.67"
+ENG_Version = "0.1.0"
 #For use in mid-production to late-production EMD 40-series "Dash 2" Locomotives (GP40-2, SD40-2).
 EngineType = "EMD 645E3B (V16)" #What is the name of the Prime Mover?
 

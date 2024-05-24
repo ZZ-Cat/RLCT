@@ -1,6 +1,6 @@
 @name ptgamma/engines/EMD_V12_265H
 #ENGINE CONFIG
-ENG_Version = "2.0.67"
+ENG_Version = "0.1.0"
 #For use in the EMD SD89MAC, also usable in the SD90MAC.
 EngineType = "EMD 265H (V12)" #What is the name of the Prime Mover?
 

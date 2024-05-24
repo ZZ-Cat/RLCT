@@ -1,6 +1,6 @@
 @name ptgamma/engines/GE_V16_FDL_Y2
 #ENGINE CONFIG
-ENG_Version = "2.0.67"
+ENG_Version = "0.1.0"
 #For use in GE's 4000 HP Dash 8 Models.
 EngineType = "GE 7FDL16Y2" #What is the name of the Prime Mover?
 

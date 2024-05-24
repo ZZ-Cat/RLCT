@@ -1,6 +1,6 @@
 @name ptgamma/engines/ALCO_V12_244H
 #ENGINE CONFIG
-ENG_Version = "2.0.67"
+ENG_Version = "0.1.0"
 #Recorded from a Gonian UM-118T. Best used in late production 1600 Horsepower Alco locomotives (RS3, RS10, RSC24, RSD4-RSD5, and FA/FB).
 EngineType = "Alco 244H" #What is the name of the Prime Mover?
 

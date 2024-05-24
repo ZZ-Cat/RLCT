@@ -1,6 +1,6 @@
 @name ptgamma/engines/EMD_V6_567A
 #ENGINE CONFIG
-ENG_Version = "2.0.68"
+ENG_Version = "0.1.0"
 #For use in the EMD SW1 (post-1945).
 EngineType = "EMD 567A (V6)" #What is the name of the Prime Mover?
 

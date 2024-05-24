@@ -3,7 +3,7 @@
 #Requires Parkman's Addon Pack
 
 #ENGINE CONFIG
-ENG_Version = "2.0.68"
+ENG_Version = "0.1.0"
 #For use in the EMD SW9 or EMD E8, or rebuilds.
 EngineType = "EMD 567B (V12)" #What is the name of the Prime Mover?
 

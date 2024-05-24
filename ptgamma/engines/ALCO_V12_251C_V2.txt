@@ -1,6 +1,6 @@
 @name ptgamma/engines/ALCO_V12_251C_V2
 #ENGINE CONFIG
-ENG_Version = "2.0.67"
+ENG_Version = "0.1.0"
 #For use in the MLW M420. Not accurate for CN's third order of M420s due to them being ordered with a different turbocharger.
 EngineType = "Alco 251C3 (V12)" #What is the name of the Prime Mover?
 

@@ -1,6 +1,6 @@
 @name ptgamma/engines/GE_V16_FDL_Early
 #ENGINE CONFIG
-ENG_Version = "2.0.67"
+ENG_Version = "0.1.0"
 #For use in GE U-series and Dash-7 Locomotives (U25B, C30-7).
 EngineType = "GE FDL-16" #What is the name of the Prime Mover?
 

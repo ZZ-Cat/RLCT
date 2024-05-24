@@ -1,6 +1,6 @@
 @name ptgamma/engines/ALCO_V12_244D_V2
 #ENGINE CONFIG
-ENG_Version = "2.0.67"
+ENG_Version = "0.1.0"
 #For use in early Alco road locomotives (RS2-RS3, RS10, RSC24, RSD4-RSD5, and FA/FB).
 EngineType = "Alco 244D (V12)" #What is the name of the Prime Mover?
 

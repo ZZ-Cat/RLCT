@@ -1,6 +1,6 @@
 @name ptgamma/engines/EMD_V16_645F3B_GP
 #ENGINE CONFIG
-ENG_Version = "2.0.68"
+ENG_Version = "0.1.0"
 #For use in the EMD GP50 Locomotive (also works for the GP49)
 EngineType = "EMD 645F3B (V16)" #What is the name of the Prime Mover?
 

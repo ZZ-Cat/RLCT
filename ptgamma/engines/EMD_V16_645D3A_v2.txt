@@ -1,6 +1,6 @@
 @name ptgamma/engines/EMD_V16_645D3A_v2
 #ENGINE CONFIG
-ENG_Version = "2.0.67"
+ENG_Version = "0.1.0"
 #For use in rebuilt GP30s with 645 power assemblies. Has an AC alternator.
 EngineType = "EMD 645D3A (V16)" #What is the name of the Prime Mover?
 
