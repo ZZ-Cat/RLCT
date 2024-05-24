@@ -159,7 +159,7 @@ if(first()|dupefinished()){
     }
     #Overall Version Check
     runOnHTTP(1)
-    httpRequest("https://raw.githubusercontent.com/MagnumMacKivler/RLCPT2/master/version.txt")
+    httpRequest("https://raw.githubusercontent.com/ZZ-Cat/rlctitanium/separate-titanium-from-RLC-PTGamma/version.txt")
     timer("vc_timeout",5000)
     
     #Loco
