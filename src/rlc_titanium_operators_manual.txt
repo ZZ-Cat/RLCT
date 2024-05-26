@@ -1,4 +1,4 @@
-@name ptgamma/RLC PT2 Operator Manual
+@name rlctitanium/src/rlc_titanium_operators_manual
 @model models/props_lab/binderbluelabel.mdl
 #[
 #####################################################################################################################################################################
@@ -83,17 +83,18 @@ If you have any suggestions or feedback, please let me know on the RLC Titanium 
  |___|___(_) |___|_|\_|___/ |_/_/ \_\____|____/_/ \_\_| |___\___/|_|\_| |___|_|\_|___/ |_| |_|_\\___/ \___| |_| |___\___/|_|\_|___/
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    A: Where to Get It (Probably Required):   
-        1 - Visit https://github.com/MagnumMacKivler/RLCPT2 and install RLC PT 2 to your Expression 2 folder by following the instructions on the site.
-            Updated versions of RLC PT2 can be found here!  
-            Visit the RLC PT2 Wiki at https://github.com/MagnumMacKivler/RLCPT2/wiki (or click the Wiki link from the Github page) for helpful info on PT setup, locomotives, or
-            general information about locomotives!                                                                                                                       
-    B: Basic Setup (Required):
-        1 - Select or Make an RLC PT2 Locomotive Config file. These can be found in "ptgamma/locos/". There's a lot to configure, so take your time and read through everything!
-        2 - Configure RLC PT 2.0 (Henceforth referred to as "RLC"). A lot of the config has been outsourced to the Locomotive Config and Control Reader/Stand E2s.
+    A: Where to Get It:
+        1 - Visit https://github.com/ZZ-Cat/rlctitanium and install RLC Titanium to your Expression 2 folder by following the instructions there.
+            The information in the original RLC Platinum Gamma Wiki is still relevant, particularly for locomotive setup.
+            The RLC Platinum Gamma Wiki can be found at https://github.com/MagnumMacKivler/RLCPT2/wiki
+    B: Basic Setup:
+        1 - Select or make a Locomotive Config file. These can be found in "/rlctitanium/src/locos/". There's a lot to configure, so take your time and read through
+            everything!
+        2 - Configure RLC Titanium (Henceforth referred to as "RLC"). As was the case with RLC Platinum Gamma, the configuration is outsourced to the Locomotive
+            Config and Control Reader/Stand E2s.
 			Need help making a locomotive config? Check out https://github.com/MagnumMacKivler/RLCPT2/wiki/Configuring-Locomotives-in-RLC-PT2 !
         3 - Spawn RLC on the locomotive body like you'd attach a thruster. Don't worry about the error message just yet.
-            The shiny side must point BACKWARDS. Do not attach to the trucks/bogies.
+            The shiny side MUST point towars the rear of the locomotive. Do not attach to the trucks/bogies.
             If there are no suitable faces to attach the chip to, you can spawn RLC on the ground, Physgun it into place, and weld it manually.
             >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
             > DO NOT PARENT THE RLC CHIP! >
@@ -117,7 +118,8 @@ If you have any suggestions or feedback, please let me know on the RLC Titanium 
         6 - Spawn a Wire Advanced Entity Marker (Adv Ent Marker) and link it to the Locomotive's trucks/bogies (Right Click the Marker, then Shift+Right Click the two trucks).
             Wire RLC's "Trucks[ARRAY]" to the Adv Ent Marker's "Entities[ARRAY]" output.
         6a - If your locomotive has span bolsters, spawn another Adv Ent Marker and link it to the Locomotive's span bolsters. Wire RLC's "SpanBolsters[ARRAY]" to this!
-        7 - Spawn an RLC PT2 Control Reader (ptgamma/RLC PT2 Control Reader.txt) or modernized control stand (ptgamma/cstands_bg/cstand_aar.txt for example) in an accessible area.
+        7 - Spawn an RLC Titanium Control Reader (rlctitanium/src/rlc_titanium_control_reader.txt) or modernized control stand (ptgamma/cstands_bg/cstand_aar.txt for
+            example) in an accessible area.
         
             "Control Stand? Control Reader? Which one do I use?"
             Use the Modernized Control Stand if you're using one of the new Control Stand models. That chip contains the control reader within it.
@@ -193,7 +195,7 @@ If you have any suggestions or feedback, please let me know on the RLC Titanium 
     
         The Dual Control Stand Mux (Multiplexer) E2 is a convenient way of sourcing two separate control setups for dual-control stand or dual-cab locomotives.
         Simply set up two completely independent control stands with separate Engine Run, Generator Field, and Brake Cut-In switches.
-        The Mux E2 has two sets of inputs and one set of outputs. Wire all the RLC PT2 inputs you'd normally connect to the control stand to the Mux instead. Wire the Control Reader/Stand's "UsingRearSeat" input to the Mux's "UsingRearSeat" output.
+        The Mux E2 has two sets of inputs and one set of outputs. Wire all the RLC inputs you'd normally connect to the control stand to the Mux instead. Wire the Control Reader/Stand's "UsingRearSeat" input to the Mux's "UsingRearSeat" output.
         Then, wire The Mux's inputs to the corresponding items on the Front and Rear Control Readers/Stands, and you're done!
 		
 		Note: The variable "MainLogicType" in the Mux E2's Config changes how the Engine Run/Gen Field switches on the two Control Readers/Stands behave.
@@ -210,16 +212,17 @@ If you have any suggestions or feedback, please let me know on the RLC Titanium 
             "Number[STRING]" (RLC AND Control Reader/Stand) lets RLC know what the running number of the Locomotive is. This allows you to send Chat Commands to individual
             locomotives!
 			
-	L: Updating RLC PT 2.0
-		
-		Every now and then, RLC PT2 may be updated. This should be easy to notice as long as you have an internet connection, as RLC PT2 will check for updates when spawned in.
-		If an update is available:
-			1 - Go to the RLC PT2 Github (https://github.com/MagnumMacKivler/RLCPT2) and download the most recent version, including all accompanying files.
-			2 - Specify one of your config files in the RLC PT2 chip and upload it into the RLC chip of an existing RLC PT2 locomotive.
-				RLC PT2 will automatically check to see if your locomotive config, engine config, control config, and control reader/stand E2s are up to date. If any of them aren't, RLC PT2 will notify
-				you immediately via chat message.
+	L: Updating RLC Titanium
+
+        RLC Titanium is seeing active development, and enhancements and bug fixes are being made all the time.
+        Periodically, new versions of RLC Titanium will be released. To update your RLC Titanium to the latest version:
+            1 - Go to the RLC Titanium Github (https://github.com/ZZ-Cat/rlctitanium) and download the most recent version, including all accompanying files.
+                Pro Tip: You can download the entire repository as a ZIP file by clicking the green "Code" button and selecting "Download ZIP.", or
+                you can use a Git client to clone the repository to your computer.
+			2 - Specify one of your config files in the RLC chip and upload it into the RLC chip of an existing RLC Titanium locomotive.
+				This process is the same as RLC Platinum Gamma, and you can find more information on how to do this at https://github.com/MagnumMacKivler/RLCPT2/wiki/Configuring-Locomotives-in-RLC-PT2)
 			3 - If any configs are out of date, update them using the latest versions on the github.
-		Once you re-upload the RLC PT2 chip, and it doesn't throw any errors, your RLC PT2 is completely up to date!
+		Once you re-upload the RLC chip, and it doesn't throw any errors, your RLC Titanium is now updated, and you're ready to go!
             
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
   ___ ___ ___ _   _    ___   ___ ___  __  __  ___ _____ _____   _____    ___  ___ ___ ___    _ _____ ___ ___  _  _ 
@@ -230,7 +233,7 @@ If you have any suggestions or feedback, please let me know on the RLC Titanium 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
                                                                                                                    
     A: Startup/Shutdown
-        RLC PT 2.0 Features a much more sophisticated Startup/Shutdown sequence than RLC PT 1.
+        RLC Titanium has the same startup and shutdown procedures as RLC Platinum Gamma.
         To Start a Prime Mover:
             1 - Set the Isolation Switch to OFF (Start/Stop/Isolate).
             2 - Press and Hold the Primer button for at least 15 seconds. If you let go, you have to start over (Note: for locomotives with the "Latched" Primer mode,
@@ -251,7 +254,7 @@ If you have any suggestions or feedback, please let me know on the RLC Titanium 
         In order to change the Reverser, the Throttle and Dynamic Brakes must be at IDLE and OFF, respectively.
     
     C: The Throttle
-        While RLC PT2's Throttle can have any number of notches (including an infinity of them, in the case of continuous throttles), the instructions will assume the standard
+        While RLC Titanium's Throttle can have any number of notches (including an infinity of them, in the case of continuous throttles), the instructions will assume the standard
         configuration of 8 notches.
         The Throttle normally has 9 positions: IDLE, and eight motoring positions Run 1 through Run 8.
         Use as little throttle as is necessary to move the train. Do not allow the train to remain at stall (0 MPH) for any length of time while the throttle is open.
@@ -259,7 +262,7 @@ If you have any suggestions or feedback, please let me know on the RLC Titanium 
     
     D: The Dynamic Brakes
         Dynamic Brakes get stronger in proportion to the number of locomotives in your consist, and the number of traction motors on each.
-        While RLC PT2's Dynamic Brakes can have any number of notches (including an infinity of them, in the case of continuous dynamics), the instructions will assume the
+        While RLC Titanium's Dynamic Brakes can have any number of notches (including an infinity of them, in the case of continuous dynamics), the instructions will assume the
         standard configuration of 8 notches.
         The Dynamic Brake normally has 3 positions: OFF, SETUP, and a continuous braking range.
         To begin dynamic braking:
@@ -275,7 +278,7 @@ If you have any suggestions or feedback, please let me know on the RLC Titanium 
         Be sure not to apply the Independent (Locomotive) Brakes when the dynamic brakes are in use! Doing so may lock up your wheels and cause you to slide!
     
     E: The Air System
-        RLC PT2 has a sophisticated air brake system that, while offering a higher degree of realism, can be very confusing to users who are unfamiliar with how it works.
+        RLC Titanium has the same braking system as RLC Platinum Gamma.
         
         For simple instructions on how to use the air brakes, skip to sections F and G.
         
@@ -372,7 +375,7 @@ If you have any suggestions or feedback, please let me know on the RLC Titanium 
     F: Train (Automatic) Air Brakes
         The Train Brakes apply a braking force for every single car in the train, making it the primary way of stopping a train. The Train Brakes get stronger the more cars are in your train.
         Span-bolstered cars have more braking force because they have more props, and conversely, articulated cars (such as well cars) have less braking force because they have fewer props.
-        RLC PT2 Supports five individual Airbrake types:
+        RLC Titanium Supports five individual Airbrake types:
             Westinghouse 26L, the modern standard,
             Westinghouse 24RL, an older, but still quite common system,
             Westinghouse No. 6 Series, the steam-era standard,
@@ -397,7 +400,7 @@ If you have any suggestions or feedback, please let me know on the RLC Titanium 
             Lap (Same as 24RL),
             Service (Same as 24RL),
             and Emergency (Same as 24RL).
-        Normally, the Emergency brake notch cannot be reached by using the Brake Controls in RLC PT2, to prevent accidental Emergency Brake applications.
+        Normally, the Emergency brake notch cannot be reached by using the Brake Controls in RLC Titanium, to prevent accidental Emergency Brake applications.
         Instead, if you need to use the Emergency Brake, press the Emergency Brake key.
         The two Generic Air Brake modes are much simpler, and behave the same way "16M" and "26L" did in RLC PT1:
             The Generic Manual-Lapping Air Brakes use only three notches (Release, Lap, and Service), which behave as described in the 24RL section.
@@ -415,8 +418,8 @@ If you have any suggestions or feedback, please let me know on the RLC Titanium 
         Brake Status.
             This allows you to release the brakes on the locomotive while keeping the brakes on the rest of the train applied. This should be done when pulling against the brakes.
     
-    H: Transition & Selectior
-        One of RLC PT2's larger improvements is the addition of Transition, which allows locomotives to operate over a wider range of speeds.
+    H: Transition & Selector
+        The Transition and Selector systems in RLC Titanium are currently the same as they were in RLC Platinum Gamma.
         Transition rearranges the Traction Motor and Generator circuits to trade Tractive Effort for speed. It is analogous to the gearshift in an automobile.
         Locomotives can have any number of Motoring positions, plus one "Off" position. Fully-Automatic locomotives do not utilize the "Off" position.
         Transition is usually automatic, requiring no input from the Engineer. Some locomotives (especially early diesels), however, have Manual Transition:
