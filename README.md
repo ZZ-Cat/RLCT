@@ -39,17 +39,36 @@ When all is said and done, you should see the `rlctitanium` folder in your `e2sh
 
 ## Development map
 
-- [ ] Remove all the bloatware, stripping everything back to the bare locomotive controller itself, plus the minimum required for your locomotive to function.  
-  This means all irrelevant scripts (EG the contents of magspack2) will be removed. If you still wish to use these scripts, you may use the ones that come with RLC Platinum 2.0 Gamma. I will endeavour to have RLC Titanium interoperable with a lot of these scripts as I can.
-- [ ] Overhaul existing CLI.
+- [x] Change the folder structure of the repository.
+- [x] Re-brand the entire repository as RLC Titanium.
+- [x] Update the Operator's Manual to reflect the branding of RLC Titanium, making it distinct from its upstream.
+- [x] Bloatware, Part 1: Deprecate `magspack2`.
+  The contents of this subfolder is outside the scope of RLC Titanium, and will be removed before the first release is made.  
+  If you wish to continue using these scripts, you should use the ones from the upstream instead.
+- [ ] Bloatware, Part 2: Remove outdated/discontinued/abandoned scripts in `rlctitanium/src/extras` subfolder.
+- [ ] Consolidate the `rlctitanium/src/cstands_*` subfolders.
+- [ ] Submodule the `rlctitanium/src/cstands_*` subfolders.
+- [ ] Submodule the `rlctitanium/src/engines` subfolder.
+- [ ] Re-factor: Improve dupe handling when spawned with Advanced Duplicator 2.
+- [ ] Re-factor: Simplify the set-up process.
+  - [ ] Remove all physical Wire I/O.
+  - [ ] Replace pod controller dependency with internal handling.
+  - [ ] Replace advanced entity marker dependency with internal entity discovery.
+- [ ] Re-factor: Improve on-chip security - particularly in online multi-player sessions.
 - [ ] OTA Updates (where you can opt-into automatic updates instead of opt-out).  
   This is a big one, and it's one I had planned for RailDriver, but I never implemented it.
   What this does is it allows you to download new updates to RLC Titanium and the install happens automatically.  
   It is entirely transparent to you. You don't need to lift a finger... except typing in a command to initiate the update. But, you get the idea. =^/.~=
-- [ ] Simplify the set-up process.  
-  By the time I am done with this, all you will need to do is place the E2 chip in an inconspicuous spot on your locomotive, start it up, hop in your driver's seat and go.
+- [ ] Repository restructure... again.  
+  Yes, again. If I do this right, you should _only_ be able to clone the repository into your Expression2 directory, and let the OTA Updates handle the rest.
+- [ ] Overhaul existing CLI.
+- [ ] Re-factor: Fix all the compiler warnings.
+- [ ] Style: Improve code readability.
+- [ ] Enhancement: RLC Titanium Configurator.
+  This may be submoduled into its own repository, but it will add a graphical user interface to allow you to easily configure RLC Titanium to your needs.  
+  No more reading source code _just_ to set your train up.
 - [ ] ?
-- [ ] Rolling release...
+- [ ] Cut v0.1.0 and release it.
 
 ## Attributions
 
