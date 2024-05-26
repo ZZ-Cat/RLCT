@@ -1,12 +1,17 @@
 # RLC Titanium
 
-RLC Titanium is based on [RLC Platinum 2.0 Gamma, version 2.0.68](https://github.com/MagnumMacKivler/RLCPT2).
+RLC Titanium is based on [RLC Platinum 2.0 Gamma, version 2.0.68](https://github.com/MagnumMacKivler/RLCPT2).  
+It is an Expression2 script that simulates real-life diesel-electric locomotives in Garry's Mod.
 
 > [!NOTE]  
-> In its current state, RLC Titanium is 1:1 identical to its upstream repository. This may change over time, as changes are made to the code-base.
+> In its current state, RLC Titanium is nearly identical to RLC Platinum Gamma, but with some superficial changes to the naming, branding, and folder structure.
+> Over time, RLC Titanium will be updated with new features, bug fixes, and improvements to make it easier to set up and use.
 > This project is not a high priority for me, so development on it is significantly slower compared to my [more popular project](https://github.com/ZZ-Cat/CRSFforArduino), as this is more-or-less something I do in my spare time.
 
-RLC Titanium strips away all the bloat, focusing on improving quality-of-life and maintenance over time.
+RLC Titanium is focused on quality-of-life improvements, bug fixes, and user-friendliness.
+
+I am aiming to bring in enhancements such as automatic over-the-air updates, a Configurator GUI where you can configure/tune/tailor RLC Titanium to your needs  
+through a graphical user interface, and making RLC Titanium as easy as spawn-the-E2-and-go to set your first locomotive up and get it running right out-of-the-box.
 
 ## Dependencies
 
