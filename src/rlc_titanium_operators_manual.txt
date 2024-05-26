@@ -71,63 +71,10 @@ RLC Titanium is a fork of RLC Platinum Gamma, and is designed to be more user-fr
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-RLC PT 2.0 has a lot of improvements over prior Locomotive Control chips, including the original RLC PT.
-                                                            
-    Configurations:
-        Include-based configs for Control, Locomotive, and Engine settings
-        Custom Notch Counts
-        Notched & Continuous Throttle and Dynamic Brakes
-        Configurable Air Compressors
-        Clasp Brakes Option
-        Integrated Cabcar/Slug/Snail Modes
-        Top-Speed-Based Custom Gearing
-        Variable Dynamic Brake Ratings
-        
-    Physics:
-        Scale Weight System for Cars and Locomotives
-        Automatic Tractive Effort Calculation based on Weight and Factor of Adhesion
-        Realistic Wheel Slip
-		Realistic Dynamic Brake Curves
-        Lockable wheels
-        Electronic Traction Control
-        Manual/Automatic Transition with Selector Lever Support and Generator Transition Option
-        Abusable Traction Motors with Parameterized Ratings
-        Abusable Dynamic Brakes
-        
-    Air System:
-        Complete air system overhaul featuring Auxilliary Reservoir pressure simulation
-        Realistic Simulations of Westinghouse 24RL, 26L, and No. 6 Air Brakes
-        Realistic Air Compressors
-        Direct/Graduated Brake Release
-        Bleedable Independent Brakes
-        
-    Extras:
-        Remote Control Support
-        MU Headlights
-		Hand Brake Input
-        
-    Polish:
-        Improved Sound System
-        Primer/Starter/Isolation Engine Start System
-        Seperate Engine Run, Generator Field, and Brake Cut-In inputs
-        Multiple HEP Behavior Modes
-        SControl Stand-Specific Special Control Rule Support
-        Invalid Chat Command Embarrassment protection
-        Jointed Vs. Welded Rail Sounds
-        Clickety Clack when going over switches
-        
-    Backend: 
-		Increased Control Stand Functionality
-        Player-Scale Speed Calculations
-        Per-Unit Chat Commands
-        Automatic Config Version Validation for Locomotives, Engines, Controls, and Control Stands
-		Automatic Update Checking
-        General Optimization
-		
-	Planned (Future) Features:
-		Electric Locomotive Simulation
-		Diesel-Hydraulic Locomotive Simulation
-		Pitch/Volume-Blending Engine Sounds
+Nothing yet, this is the first release of RLC Titanium!
+Currently, it's nearly identical to RLC Platinum Gamma, but with some superficial changes to the naming, branding, and folder structure.
+Over time, RLC Titanium will be updated with new features, bug fixes, and improvements to make it easier to set up and use.
+If you have any suggestions or feedback, please let me know on the RLC Titanium Github page at https://github.com/ZZ-Cat/rlctitanium/issues
     
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
   ___ ___ _   ___ _  _ ___ _____ _   _    _      _ _____ ___ ___  _  _   ___ _  _ ___ _____ ___ _   _  ___ _____ ___ ___  _  _ ___ 
