@@ -58,7 +58,7 @@ if(first()|dupefinished()){
     
     Version = "0.1.0"
     
-    #See the attached Operator's Manual (ptgamma/RLC PT2 Operator Manual.txt) for setup and operation instructions.
+    #See the attached Operator's Manual (rlctitanium/src/rlc_titanium_operators_manual.txt) for setup and operation instructions.
     
     #NOTES:
     #1- This E2 REQUIRES GroveStreetGman's Train Sounds to function, due to a quirk involving sound timing. If for some reason you don't have it, you can find it here:
@@ -67,8 +67,8 @@ if(first()|dupefinished()){
     
     #LOCOMOTIVE CONFIG
     
-    #What locomotive do you want RLC PT2 to emulate? Look in "ptgamma/locos/" !
-    #include "rlctitanium/ptgamma/locos/generic/emd_sd40"
+    #What locomotive do you want RLC PT2 to emulate? Look in "rlctitanium/src/locos/" !
+    #include "rlctitanium/src/locos/generic/emd_sd40"
     
     #That's pretty much all the config you need for the RLC PT2 Chip itself!
     

@@ -30,8 +30,8 @@ if(first()){
     
     
     #Config
-    #include "ptgamma/controls/Standard"
-    #Pick a Control Scheme File! You can find them in "ptgamma/controls/" !
+    #include "rlctitanium/src/controls/Standard"
+    #Pick a Control Scheme File! You can find them in "rlctitanium/src/controls/" !
 
     
     LocoBrakeMode = 0 #0 for Self Lapping, 1 for Manual Lapping

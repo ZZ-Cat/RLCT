@@ -29,8 +29,8 @@ if(first()){
     
     #Config
     
-    #Pick a Control Scheme File! You can find them in "ptgamma/controls/" !
-    #include "rlctitanium/ptgamma/controls/standard"
+    #Pick a Control Scheme File! You can find them in "rlctitanium/src/controls/" !
+    #include "rlctitanium/src/controls/standard"
     
     AirBrakeMode = 2
     #0 - Simple Self-Lapping (Easy)

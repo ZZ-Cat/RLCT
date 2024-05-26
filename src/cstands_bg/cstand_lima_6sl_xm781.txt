@@ -29,8 +29,8 @@ if(first()){
     
     #Config
     
-    #Pick a Control Scheme File! You can find them in "ptgamma/controls/" !
-    #include "ptgamma/controls/standard"
+    #Pick a Control Scheme File! You can find them in "rlctitanium/src/controls/" !
+    #include "rlctitanium/src/controls/standard"
     
     AirBrakeMode = 4 #Literally only No.6 (Option 4) brake systems work with this stand
     #0 - Simple Self-Lapping (Easy)
