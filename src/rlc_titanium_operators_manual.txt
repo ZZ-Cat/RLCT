@@ -22,9 +22,10 @@
 #####################################################################################################################################################################
 
 
-Welcome to Magnum's RLC Platinum 2.0, now released for public use!
-RLC Pt 2.0 is designed to replace RLC Pt 1 as the premier simulation chip for Diesel-Electric Locomotives, Cab Cars, Slugs, and "Snails". RLC Pt 2.0 is designed to
-bring simulator-quality realism and standardization to the world of Garry's Mod Train Build.
+Welcome to RLC Titanium.
+RLC Titanium is a locomotive control system for Garry's Mod that simulates the operation of a real diesel-electric locomotive.
+It is based on RLC Platinum Gamma, which was created by Magnum MacKivler.
+RLC Titanium is a fork of RLC Platinum Gamma, and is designed to be more user-friendly and easier to set up than the original RLC Platinum Gamma.
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
